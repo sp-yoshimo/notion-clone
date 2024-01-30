@@ -1,0 +1,31 @@
+trunk_cli_version: 1.19.0
+title: eslint exited with exit_code=2
+report:
+  - eslint exited with exit_code=2
+  - linter:
+      command: |
+        'C:\Users\yoshimori\AppData\Local\trunk\tools\git-bash\2.40.1-da0c3e1526d36e62bf43d06ec46c5052/bin\sh.exe' 'C:\Users\yoshimori\AppData\Local\trunk\tools\eslint\8.56.0-702f0f17d16c5556911621f56585c1c7/node_modules/.bin\eslint' --output-file 'C:\Users\YOSHIM~1\AppData\Local\Temp\trunk\2ws52to\pwoeVKALrERt' --format json 'app\(auth)\layout.tsx'
+      stdin_path: (none)
+      run_from: C:\Users\yoshimori\AppData\Local\Temp\trunk\erqoyiu\v4qsehz\
+      timeout: 10m
+      rerun: (cd C:\Users\yoshimori\AppData\Local\Temp\trunk\erqoyiu\v4qsehz\; env -i 'NODE_PATH=C:\Users\yoshimori\AppData\Local\trunk\tools\eslint\8.56.0-702f0f17d16c5556911621f56585c1c7/node_modules' HOME= 'PATH=C:\Users\yoshimori\AppData\Local\trunk\tools\git-bash\2.40.1-da0c3e1526d36e62bf43d06ec46c5052/bin;C:\Users\yoshimori\AppData\Local\trunk\tools\git-bash\2.40.1-da0c3e1526d36e62bf43d06ec46c5052/usr/bin;C:\Users\yoshimori\AppData\Local\trunk\tools\eslint\8.56.0-702f0f17d16c5556911621f56585c1c7/node_modules/.bin;C:\Users\yoshimori\AppData\Local\trunk\tools\node\18.12.1-ee91e409de31a08a96aaff7f742f83b4/bin;C:\Users\yoshimori\AppData\Local\trunk\tools\node\18.12.1-ee91e409de31a08a96aaff7f742f83b4;C:\Users\yoshimori\AppData\Local\trunk\tools\git-bash\2.40.1-da0c3e1526d36e62bf43d06ec46c5052/bin;C:\Users\yoshimori\AppData\Local\trunk\tools\git-bash\2.40.1-da0c3e1526d36e62bf43d06ec46c5052/usr/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\yoshimori\AppData\Local\Stripe;C:\Users\yoshimori\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\yoshimori\AppData\Roaming\npm' 'C:\Users\yoshimori\AppData\Local\trunk\tools\git-bash\2.40.1-da0c3e1526d36e62bf43d06ec46c5052/bin\sh.exe' 'C:\Users\yoshimori\AppData\Local\trunk\tools\eslint\8.56.0-702f0f17d16c5556911621f56585c1c7/node_modules/.bin\eslint' --output-file 'C:\Users\YOSHIM~1\AppData\Local\Temp\trunk\2ws52to\pwoeVKALrERt' --format json 'app\(auth)\layout.tsx')
+      affects_cache:
+        - package.json
+        - tsconfig.json
+      direct_configs:
+        - .eslintrc.json
+      exit_status: exited
+      exit_code: 2
+      stdout: (none)
+      stderr: |
+
+        Oops! Something went wrong! :(
+
+        ESLint: 8.56.0
+
+        No files matching the pattern "app(auth)layout.tsx" were found.
+        Please check for typing mistakes in the pattern.
+
+
+    parser: |
+      (none)
